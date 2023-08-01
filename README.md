@@ -13,7 +13,7 @@ The usage of this workflow is described in the [Snakemake Workflow Catalog](http
 
 If you use this workflow in a paper, don't forget to give credits to the authors by citing the URL of this (original) phage-assembly-and-annotationsitory and its DOI (see above).
 
-# TODO
+# TODO for workflow implementation
 
 This is taken from the supplementary material of: 
 Anastasiya Shen and Andrew Millard.Phage Genome Annotation: Where to Begin and End.PHAGE.Dec 2021.183-193.http://doi.org/10.1089/phage.2021.0015 
@@ -42,7 +42,7 @@ You can follow the snakemake installation instructions to get a working version 
 
 ### snakemake wrappers
 
-The easiest example is when a snakemake wrapper exists, for example the [snakemake wrapper for `fastqc`]().
+The easiest example is when a snakemake wrapper exists, for example the [snakemake wrapper for `fastqc`](https://snakemake-wrappers.readthedocs.io/en/stable/wrappers/fastqc.html).
 Here, we can simply copy-paste the example code from the snakemake wrapper documentation into our workflow and adapt `input`, `output` and maybe the `params` specifications.
 Software installation is automatically handled by the wrapper.
 
